@@ -1,0 +1,15 @@
+.DS_Store
+.vscode
+.env
+.venv
+env/
+venv/
+evaluationResults/*
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook
+.ipynb_checkpoints
