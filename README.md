@@ -1,17 +1,17 @@
-# Project Initilization
+# Project Initialization
 - After pulling the project, do the following to initialize the project:
     - Make sure that a Python Version >= 3.11 is installed
     - Run the following command to execute the initialization script: "source setup.sh"
 - Create a .env file in the root directory with the following keys
-    - OPENAI_API_KEY=<your-key>
-    - REPLICATE_API_TOKEN=<your-key>
-    - COHERE_API_KEY=<your-key>
-    - HUGGING_FACE_API_KEY=<your-key>
-    - CHROMA_PATH=<path-to-chroma>
-    - PARENT_DOC_PATH=<path-to-hierarchical-doc-store>
-    - TESSERACT_PATH=<path-to-tesseract>
-    - VOYAGE_API_KEY=<your-key>
-    - MISTRAL_API_KEY=<your-key>
+    - OPENAI_API_KEY=your-key
+    - REPLICATE_API_TOKEN=your-key
+    - COHERE_API_KEY=your-key
+    - HUGGING_FACE_API_KEY=your-key
+    - CHROMA_PATH=path-to-chroma
+    - PARENT_DOC_PATH=path-to-hierarchical-doc-store
+    - TESSERACT_PATH=path-to-tesseract
+    - VOYAGE_API_KEY=your-key
+    - MISTRAL_API_KEY=your-key
 - If you want to insert new PDF documents and update the document base, you first need to install Tesseract which is the OCR engine used in this code:
     - Download Tesseract Installer for Windows: https://github.com/UB-Mannheim/tesseract/wiki
     - For others, see here: https://tesseract-ocr.github.io/tessdoc/Installation.html
