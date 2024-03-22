@@ -1,0 +1,5 @@
+index_name,retriever_method,number_retrieved_docs,hit_rate,mrr,similarity,duration
+OpenAI_text-embedding-ada_l2_All_388_0_False,Dense,4,0.71,0.5808333333333334,0.4791261357132862,0.3223347425460815
+OpenAI_text-embedding-ada_l2_All_2048_528_False,Rerank_Hybrid_BM25_Dense,4,0.83,0.6425,0.3863722548935071,1.9530945324897768
+OpenAI_text-embedding-ada_l2_All_1536_264_False,Rerank_Hybrid_BM25_Dense,4,0.83,0.6475000000000002,0.5619843741926605,1.8472781801223757
+OpenAI_text-embedding-ada_l2_All_1536_0_False,Rerank_Hybrid_BM25_Dense,4,0.72,0.5683333333333335,0.5134909320827616,1.464423837661743

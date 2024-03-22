@@ -1,0 +1,5 @@
+index_name,retriever_method,number_retrieved_docs,hit_rate,mrr,similarity,duration
+finetuned-ISO-27001_1024_l2_All_PC_1536_264_264_0_False,Hybrid_Parent_Child_Cohere,4,0.9,0.8349999999999999,0.6586137972197321,3.5335922408103944
+text-embedding-ada_l2_All_PC_1536_264_512_0_False,Hybrid_Parent_Child_Cohere,4,0.9,0.8299999999999998,0.6537928482276766,2.7645812153816225
+Fine-tuned_finetuned-ISO-27001_1024_l2_All_1536_264_False,Hybrid_MMR_Cohere,4,0.88,0.81,0.6423592259417638,2.2388505029678343
+OpenAI_text-embedding-ada_l2_All_1536_264_False,Hybrid_MMR_Cohere,4,0.85,0.7916666666666667,0.6467627215616085,2.303059022426605
